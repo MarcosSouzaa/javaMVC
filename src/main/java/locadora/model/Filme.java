@@ -4,10 +4,19 @@
  */
 package locadora.model;
 
+import java.util.ArrayList;
+
 /**
  *
  * @author marcos
  */
 public class Filme {
     
+    private Integer codFilme;
+    private String titulo;
+    private String genero;
+    private String sinopse;
+    private Integer duração; 
+    private ArrayList<Item> itens = new ArrayList<Item>();
+    private ArrayList<Ator> atores = new ArrayList<Ator>();
 }

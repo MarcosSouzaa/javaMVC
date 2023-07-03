@@ -4,6 +4,8 @@
  */
 package locadora.model;
 
+import java.util.ArrayList;
+
 /**
  *
  * @author marcos
@@ -13,5 +15,5 @@ public class Ator {
     private Integer codAtor;
     private String nome;
     private String nacionalidade;
-    
+    private ArrayList<Filme>filmes = new ArrayList<Filme>();   
 }
